@@ -2,7 +2,7 @@
 
 This repository contains two scripts performing the ETL process and uploading DataFrames to an RDS instance.
 
-The following schema was used to create the tables in the RDS database. [Schema](level-1/schema.sql)
+The following [schema](level-1/schema.sql) was used to create the tables in the RDS database. 
 
 The two datasets used to create the DataFrames are linked below:
 
