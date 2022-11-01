@@ -2,6 +2,10 @@
 
 This repository contains two scripts performing the ETL process and uploading DataFrames to an RDS instance.
 
+[Video Games dataset script](level-1/amazon_reviews_videogames.ipynb)
+
+[Books dataset script](level-1/amazon_reviews_books.ipynb)
+
 The following [schema](level-1/schema.sql) was used to create the tables in the RDS database. 
 
 The two datasets used to create the DataFrames are linked below:
@@ -24,6 +28,6 @@ Each script carries out the following:
 
  * Writes the DataFrames to the tables in an RDS instance.
 
-[Video Games dataset script](level-1/amazon_reviews_videogames.ipynb)
+There is an additional script that uses PySpark to analyse whether Vine reviews can be seen as trustworthy reviews. The above Video Games dataset was used for this analysis. 
 
-[Books dataset script](level-1/amazon_reviews_books.ipynb)
+[Vine reviews analysis](level-2/vine_reviews_analysis.ipynb)
